@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit neque
+        ducimus ipsa maiores quae necessitatibus rerum sint quasi labore unde
+        error ut optio facilis voluptates non deleniti tempora, assumenda nobis?
+      </p>
+      <button class="btn open">Abrir modal</button>
+    </main>
+
+    <dialog class="modal" aria-labelledby="dialog-title">
+      <h2 id="dialog-title">Header da Modal</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+        consectetur explicabo distinctio sit voluptas corrupti fugiat
+        repellendus, ipsa, doloremque, velit saepe temporibus rem ab. Vitae
+        possimus quaerat facilis iusto et?
+      </p>
+      <form method="dialog">
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Digite seu nome" required />
+        <button type="submit">Enviar</button>
+      </form>
+      <button type="button" class="btn close" aria-label="Fechar modal">
+        X
+      </button>
+    </dialog>
+  </body>
+  <script src="script.js"></script>
+</html>
